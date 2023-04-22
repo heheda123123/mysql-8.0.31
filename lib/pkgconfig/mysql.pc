@@ -1,0 +1,11 @@
+prefix=C:/Users/Administrator/AppData/Local/.xmake/packages/m/mysql/8.0.31/343f9fc228ff491fa7c84b590528c1c1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mysql
+Description: Open source relational database management system.
+Version: 8.0.31
+Libs:  -LC:/Users/Administrator/AppData/Local/.xmake/packages/b/boost/1.81.0/a12f6149615d416fb16c977e1113e9ad/lib -LC:/Users/Administrator/AppData/Local/.xmake/packages/o/openssl/1.1.1-t/9458079689e342b58f2f2e8d4b2fb860/lib -LC:/Users/Administrator/AppData/Local/.xmake/packages/z/zlib/v1.2.13/04bf9d8a64824100b68e5c59e579eda6/lib -LC:/Users/Administrator/AppData/Local/.xmake/packages/z/zstd/v1.5.5/e88ce402b52441db921cd3126aac7393/lib -LC:/Users/Administrator/AppData/Local/.xmake/packages/l/lz4/v1.9.3/5ec245f5e1a041fb9b5fcf7ea280ae92/lib -L${libdir} -lmysqlclient -llibboost_atomic-mt-s -llibboost_filesystem-mt-s -llibssl -llibcrypto -lzlib -lzstd -llz4 -lws2_32 -luser32 -lcrypt32 -ladvapi32
+Libs.private: 
+Cflags:  -I${includedir}

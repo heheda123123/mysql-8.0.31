@@ -1,0 +1,67 @@
+{
+    repo = {
+        commit = "1b3a26a73107153ff7490c12289ddbe106c4aa19",
+        branch = "master",
+        url = "https://gitee.com/tboox/xmake-repo.git",
+        name = "xmake-repo"
+    },
+    artifacts = {
+        installdir = [[C:\Users\Administrator\AppData\Local\.xmake\packages\m\mysql\8.0.31\343f9fc228ff491fa7c84b590528c1c1]]
+    },
+    deps = {
+        cmake = {
+            version = "3.26.3",
+            buildhash = "5430022e3acc47008f94857b498c53c6"
+        },
+        boost = {
+            version = "1.81.0",
+            buildhash = "a12f6149615d416fb16c977e1113e9ad"
+        },
+        openssl = {
+            version = "1.1.1-t",
+            buildhash = "9458079689e342b58f2f2e8d4b2fb860"
+        },
+        zstd = {
+            version = "v1.5.5",
+            buildhash = "e88ce402b52441db921cd3126aac7393"
+        },
+        lz4 = {
+            version = "v1.9.3",
+            buildhash = "5ec245f5e1a041fb9b5fcf7ea280ae92"
+        },
+        zlib = {
+            version = "v1.2.13",
+            buildhash = "04bf9d8a64824100b68e5c59e579eda6"
+        }
+    },
+    arch = "x64",
+    envs = {
+        PATH = {
+            "bin"
+        }
+    },
+    configs = {
+        shared = false,
+        vs_runtime = "MT",
+        pic = true,
+        debug = false
+    },
+    mode = "release",
+    description = "Open source relational database management system.",
+    vars = {
+        includedirs = {
+            "include",
+            "include/mysql"
+        }
+    },
+    plat = "windows",
+    librarydeps = {
+        "boost",
+        "openssl",
+        "zlib",
+        "zstd",
+        "lz4"
+    },
+    version = "8.0.31",
+    name = "mysql"
+}
