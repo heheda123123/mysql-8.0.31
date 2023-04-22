@@ -1,4 +1,0 @@
-{
-    ["C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\.xmake\\230422\\xrepo\\working"] = "230422",
-    ["C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\.xmake\\230421\\xrepo\\working"] = "230421"
-}
